@@ -2134,7 +2134,10 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			width: 100px; /* Set the desired width for the circle */
+  			height: 100px; /* Set the desired height for the circle */
+  			border-radius: 50%; /* Makes the image a perfect circle */
+			
 		}
 
 			.image.avatar:before {
