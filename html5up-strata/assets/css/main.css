@@ -2036,13 +2036,14 @@ input, select, textarea {
 		}
 
 /* Image */
+<style>
+  .image.avatar img {
+    border-radius: 0; /* This removes the rounded shape */
+    width: 100px; /* Adjust the width to your desired size */
+    height: 100px; /* Adjust the height to your desired size */
+  }
+</style>
 
-	.image {
-		border-radius: 0.35em;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
 
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
